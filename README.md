@@ -1,20 +1,41 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# AegisBurn AI 🛡️
 
-# Run and deploy your AI Studio app
+### AI-Driven Anomaly Detection & Predictive Screening
 
-This contains everything you need to run your app locally.
+## 📌 About the Project
+AegisBurn AI is a machine learning-based system designed to detect anomalies and predict degradation in electronic components during Burn-In testing. It goes beyond traditional fixed-threshold screening by identifying unusual behaviour and potential defects before conventional limits are crossed.
 
-View your app in AI Studio: https://ai.studio/apps/62ffb588-912e-4fd1-8ba5-5a12ca1be490
+## 🎯 Key Features
+- **Dynamic Anomaly Detection:** Identifies abnormal component behaviour by comparing measurements across a batch.
+- **Time-Series Drift Prediction:** Analyses measurements across Burn-In stages to predict potential degradation.
+- **Risk Classification:** Helps identify components that require further investigation.
+- **Explainable Results:** Provides reasons behind anomaly detection and risk assessments.
+- **Data Upload:** Supports CSV-based measurement data for analysis.
 
-## Run Locally
+## 🧠 Technologies Used
+- Python
+- Machine Learning
+- Isolation Forest
+- Gradient Boosting
+- Pandas and NumPy
+- React and TypeScript
+- FastAPI
 
-**Prerequisites:**  Node.js
+## ⚙️ How It Works
+1. Upload electronic component measurement data.
+2. Validate and process the dataset.
+3. Analyse component behaviour using machine learning.
+4. Detect anomalies and predict potential degradation.
+5. Display risk assessments and explanations through the dashboard.
 
+## 🌟 Project Goal
+To help QA engineers identify potentially defective electronic components earlier, improve screening reliability, and reduce the risk of latent defects escaping conventional testing.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 💡 Our Vision
+Move from **"Did it cross the limit?"** to **"Is its behaviour becoming abnormal?"**
+
+## 👥 Team
+**Team Name:** Avionics Crew
+
+## ⚠️ Disclaimer
+This project is intended as an AI-assisted screening prototype. Predictions require validation using reliable component measurement data before real-world deployment.
