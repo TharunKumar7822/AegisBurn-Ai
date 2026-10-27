@@ -1,0 +1,6 @@
+{
+  "name": "AegisBurn AI",
+  "description": "AI-assisted engineering screening system for semiconductor and electronic components undergoing burn-in testing, predicting 168-hour behavior, calculating anomaly scores, and assigning risk levels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
